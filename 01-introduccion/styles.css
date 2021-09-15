@@ -1,0 +1,27 @@
+body{background-color: rgb(209, 209, 236);}
+/* selectores de etiqueta, es el que tiene menor peso */
+/* h1{color: blue; text-align: center;} */
+/* p{background-color: darkgreen;} */
+
+/* selector con id, este es mas importante que el de clase */
+#titulo-principal{
+    color: blue;
+    text-align: center;
+}
+
+/* clases css */
+.p-size {
+    font-size: 20px;
+}
+
+.p-green {
+    color: darkgreen;
+    background-color: darkkhaki;
+}
+
+.p-red{
+    color: yellow;
+    background-color: darkslategray;
+}
+
+/* el ultimo selector que existe es in-lin que es aplicarlo directamente en el codigo HTML pero tiene menor grado en la jerarquia de selectores*/

@@ -1,0 +1,41 @@
+body{
+    background-image: url('wallpaperbetter.com_1280x800.jpg');
+    background-size: cover;
+}
+
+.title{
+    text-align: center;
+    color: black;
+    background-color: rosybrown;
+    border: 5px double blue;
+}
+
+.subtitle{
+    background-color: burlywood;
+    color: crimson;
+    text-align: center;
+    padding: 10px;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+#caja{
+    margin-left: 10px;
+    text-align: justify;
+    background-color: lightseagreen;
+    padding: 5px;
+}
+
+/* estilo por separado segun el tipo de elemento html referenciado pero que estan dentro de un mismo conjunto */
+/* compartiendo estilos */
+#caja p, #caja2{
+    font-style: italic;
+}
+
+#caja2{
+    width: 400px;
+    height: 200px;
+    background-color: lightslategrey;
+    /* centar elemento, 50px para superior e inferior con respecto a los elemntos anterior y posterior, auto para los lados */
+    margin: 50px auto;
+}

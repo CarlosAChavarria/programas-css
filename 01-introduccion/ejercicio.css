@@ -1,0 +1,29 @@
+body{
+    background-image: url("https://studio.cults3d.com/xyY6K8bXqZkTOELJZToWeKPjNWg=/https://files.cults3d.com/uploaders/15233766/illustration-file/fbe2d0a7-b879-4942-908c-f39f1ab1b00e/2.jpg");
+}
+
+#titulo{
+    text-align: center;
+    font-family:cursive;
+}
+
+.subtitulo{
+    text-align: left;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.font-color{
+    color: white;
+}
+
+.family{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    background-color: rgba(0,0,0, 0.5);
+    text-indent: 50px;
+}
+
+.lista li{
+    list-style-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqrmGUYnu3Ebok_yYExlwEqe3Q7gnQEcA8kg&usqp=CAU");
+  }
