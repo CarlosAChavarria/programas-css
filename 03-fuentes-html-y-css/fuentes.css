@@ -1,0 +1,37 @@
+.text{
+    text-align: center;
+    background-color: khaki;
+    margin-top: 100px;
+}
+
+div{
+    border: dotted;
+}
+
+.fuente1{
+    font-family: 'Caveat', cursive;
+    /* referencia del peso de la tipografia */
+    font-weight: 400;
+    color: blue;
+}
+
+.fuente2{
+    font-family: 'Lobster Two', cursive;
+    font-weight: 400;
+    color: brown;
+}
+
+.fuente3{
+    font-family: 'Bebas Neue', cursive;
+    color: crimson;
+}
+
+.fuente4{
+    font-family: 'Lobster', cursive;
+    color: darkgreen;
+}
+
+.fuente5{
+    font-family: 'Pacifico', cursive;
+    color: deeppink;
+}
