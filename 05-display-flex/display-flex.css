@@ -1,0 +1,38 @@
+body{
+    background-color: lightgray;
+}
+
+.container{
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid black;
+    align-items:flex-end;
+}
+
+.caja{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    /* alinea en el centro verticalmente */
+    align-items: center;
+    /* alinea en el centro horizontalmente */
+    justify-content: center;
+}
+
+.caja1{
+    border: 7px solid red;
+    align-self: flex-start;
+}
+.caja2{
+    border: 7px solid blue;
+}
+.caja3{
+    border: 7px solid yellow;
+}
+.caja4{
+    border: 7px solid black;
+}
